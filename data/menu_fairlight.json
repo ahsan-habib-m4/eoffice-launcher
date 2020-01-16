@@ -1,0 +1,792 @@
+[{
+        "menu": "Accommodation",
+        "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&type=Components&rule=ACC",
+        "new": "/eoffice-data/component/ACC",
+        "detail": "/eoffice-data/component/ACC?code=",
+        "logo": "bed",
+        "note": "Accommodation Products",
+        "privilege": "6"
+    },
+    {
+        "menu": "Transports",
+        "logo": "plane",
+        "note": "Transport Products",
+        "privilege": "6",
+        "sub": [{
+                "menu": "Outbound",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&type=Components&rule=OUT",
+                "new": "/eoffice-data/component/OUT",
+                "detail": "/eoffice-data/component/OUT/",
+                "logo": "plane-departure",
+                "note": "Outbound Transports",
+                "privilege": "6"
+            },
+            {
+                "menu": "Connecting",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&type=Components&rule=CON",
+                "new": "/eoffice-data/component/CON",
+                "detail": "/eoffice-data/component/CON/",
+                "logo": "plane",
+                "note": "Connecting Transports",
+                "privilege": "6"
+            },
+            {
+                "menu": "Inbound",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&type=Components&rule=INB",
+                "new": "/eoffice-data/component/INB",
+                "detail": "/eoffice-data/component/INB/",
+                "logo": "plane-arrival",
+                "note": "Inbound Transports",
+                "privilege": "6"
+            }
+        ]
+    },
+    {
+        "menu": "Components",
+        "logo": "shopping-cart",
+        "note": "All product components",
+        "privilege": "6",
+        "sub": [{
+                "menu": "Car",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&type=Components&rule=CAR",
+                "new": "/eoffice-data/component/CAR",
+                "detail": "/eoffice-data/component/CAR/",
+                "logo": "car",
+                "note": "Car Hire",
+                "privilege": "6"
+            },
+            {
+                "menu": "Car",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&type=Components&rule=CCH",
+                "new": "/eoffice-data/component/CCH",
+                "detail": "/eoffice-data/component/CCH/",
+                "logo": "car",
+                "note": "Cephalonia Car Hire",
+                "privilege": "6"
+            },
+            {
+                "menu": "Car",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&type=Components&rule=PCH",
+                "new": "/eoffice-data/component/PCH",
+                "detail": "/eoffice-data/component/PCH/",
+                "logo": "car",
+                "note": "Pelion Car Hire ",
+                "privilege": "6"
+            },
+            {
+                "menu": "Holiday Extras",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&type=Components&rule=EXT",
+                "new": "/eoffice-data/component/EXT",
+                "detail": "/eoffice-data/component/EXT/",
+                "logo": "camera-retro",
+                "note": "Holiday Extras",
+                "privilege": "6"
+            },
+            {
+                "menu": "Flight Extras",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&type=Components&rule=FEX",
+                "new": "/eoffice-data/component/FEX",
+                "detail": "/eoffice-data/component/FEX/",
+                "logo": "plane",
+                "note": "Flight Extras",
+                "privilege": "6"
+            },
+            {
+                "menu": "Financial",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&type=Components&rule=FIN",
+                "new": "/eoffice-data/component/FIN",
+                "detail": "/eoffice-data/component/FIN/",
+                "logo": "wallet",
+                "note": "Financial",
+                "privilege": "6"
+            },
+            {
+                "menu": "Flight Tax",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&type=Components&rule=FTX",
+                "new": "/eoffice-data/component/FTX",
+                "detail": "/eoffice-data/component/FTX/",
+                "logo": "percent",
+                "note": "Flight Tax",
+                "privilege": "6"
+            },
+            {
+                "menu": "Insurance",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&type=Components&rule=INS",
+                "new": "/eoffice-data/component/INS",
+                "detail": "/eoffice-data/component/INS/",
+                "logo": "life-ring",
+                "note": "Insurance",
+                "privilege": "6"
+            },
+            {
+                "menu": "Supplement",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&type=Components&rule=SUP",
+                "new": "/eoffice-data/component/SUP",
+                "detail": "/eoffice-data/component/SUP?code=",
+                "logo": "gift",
+                "note": "Supplement",
+                "privilege": "6"
+            },
+            {
+                "menu": "Transfer",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&type=Components&rule=TRF",
+                "new": "/eoffice-data/component/TRF",
+                "detail": "/eoffice-data/component/TRF/",
+                "logo": "taxi",
+                "note": "Transfer",
+                "privilege": "6"
+            },
+            {
+                "menu": "Special offers",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&type=Components&rule=OFF",
+                "new": "/eoffice-data/component/OFF",
+                "detail": "/eoffice-data/component/OFF/",
+                "logo": "coffee",
+                "note": "Special offers",
+                "privilege": "6"
+            },
+            {
+                "menu": "Previous Guest",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&type=Components&rule=PGU",
+                "new": "/eoffice-data/component/PGU",
+                "detail": "/eoffice-data/component/PGU/",
+                "logo": "user-tie",
+                "note": "Previous Guest",
+                "privilege": "6"
+            },
+            {
+                "menu": "Loyalty Benefits",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&type=Components&rule=LOY",
+                "new": "/eoffice-data/component/LOY",
+                "detail": "/eoffice-data/component/LOY/",
+                "logo": "crown",
+                "note": "Loyalty Benefits",
+                "privilege": "6"
+            },
+            {
+                "menu": "Excursions",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&type=Components&rule=EXC",
+                "new": "/eoffice-data/component/EXC",
+                "detail": "/eoffice-data/component/EXC/",
+                "logo": "map-marked-alt",
+                "note": "Excursions",
+                "privilege": "6"
+            },
+            {
+                "menu": "Meals",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&type=Components&rule=BOA",
+                "new": "/eoffice-data/component/BOA",
+                "detail": "/eoffice-data/component/BOA/",
+                "logo": "utensils",
+                "note": "A La Carte Meal Supplements",
+                "privilege": "6"
+            },
+            {
+                "menu": "KCH",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&type=Components&rule=KCH",
+                "new": "/eoffice-data/component/KCH",
+                "detail": "/eoffice-data/component/KCH/",
+                "logo": "bus",
+                "note": "Skopelos Car hire",
+                "privilege": "6"
+            }
+        ]
+    },
+    {
+        "menu": "Contracts",
+        "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&type=Contracts",
+        "new": "/eoffice-data/contract",
+        "detail": "/eoffice-data/contract/",
+        "logo": "handshake",
+        "note": "Contracts",
+        "privilege": "6"
+    },
+    {
+        "menu": "Destinations",
+        "logo": "map-marker-alt",
+        "note": "All Destinations",
+        "privilege": "6",
+        "sub": [{
+                "menu": "Country",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&type=Country",
+                "new": "/eoffice-data/data/country",
+                "detail": "/eoffice-data/data/country/",
+                "logo": "flag",
+                "note": "Country",
+                "privilege": "6"
+            },
+            {
+                "menu": "Destination",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&type=Destination",
+                "new": "/eoffice-data/data/destination",
+                "detail": "/eoffice-data/data/destination/",
+                "logo": "map-marker",
+                "note": "Destination",
+                "privilege": "6"
+            },
+            {
+                "menu": "Port",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&type=Port",
+                "new": "/eoffice-data/data/port",
+                "detail": "/eoffice-data/data/port/",
+                "logo": "plane",
+                "note": "Port",
+                "privilege": "6"
+            },
+            {
+                "menu": "Resort",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&type=Resort",
+                "new": "/eoffice-data/data/resort",
+                "detail": "/eoffice-data/data/resort/",
+                "logo": "hotel",
+                "note": "Resort",
+                "privilege": "6"
+            }
+        ]
+    },
+    {
+        "menu": "Codes",
+        "logo": "edit",
+        "note": "All codes maintenance screens",
+        "privilege": "6",
+        "sub": [{
+                "menu": "Codified note",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&type=CodifiedNote",
+                "new": "/eoffice-data/data/codifiednote",
+                "detail": "/eoffice-data/data/codifiednote/",
+                "logo": "sticky-note",
+                "note": "Codified note",
+                "privilege": "6"
+            },
+            {
+                "menu": "Codified remark",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&type=CodifiedRemark",
+                "new": "/eoffice-data/data/codifiedremark",
+                "detail": "/eoffice-data/data/codifiedremark/",
+                "logo": "tag",
+                "note": "Codified remark",
+                "privilege": "6"
+            },
+            {
+                "menu": "Component type",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&type=ComponentType",
+                "new": "/eoffice-data/data/cotype",
+                "detail": "/eoffice-data/data/cotype/",
+                "logo": "shopping-cart",
+                "note": "Component type",
+                "privilege": "6"
+            },
+            {
+                "menu": "Component service type",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&type=ComponentServiceType",
+                "new": "/eoffice-data/codes/OT",
+                "detail": "/eoffice-data/codes/OT/",
+                "logo": "cog",
+                "note": "Component service type",
+                "privilege": "6"
+            },
+            {
+                "menu": "Field name",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&type=FieldName",
+                "new": "/eoffice-data/data/fieldname",
+                "detail": "/eoffice-data/data/fieldname/",
+                "logo": "list-alt",
+                "note": "Field name",
+                "privilege": "6"
+            },
+            {
+                "menu": "Pax field",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&type=PaxField",
+                "new": "/eoffice-data/data/paxfield",
+                "detail": "/eoffice-data/data/paxfield/",
+                "logo": "list-alt",
+                "note": "Pax field",
+                "privilege": "6"
+            },
+            {
+                "menu": "Payment method",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&type=PaymentMethod",
+                "new": "/eoffice-data/data/paymentmethod",
+                "detail": "/eoffice-data/data/paymentmethod/",
+                "logo": "credit-card",
+                "note": "Payment method",
+                "privilege": "6"
+            },
+            {
+                "menu": "Supplement category",
+                "list": "/eoffice-data/search/codes/SY/%3F?search=%3F",
+                "new": "/eoffice-data/codes/SY",
+                "detail": "/eoffice-data/codes/SY/",
+                "logo": "gift",
+                "note": "Supplement category",
+                "privilege": "6"
+            },
+            {
+                "menu": "Airlines",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&type=Airlines",
+                "new": "/eoffice-data/codes/AL",
+                "detail": "/eoffice-data/codes/AL/",
+                "logo": "plane",
+                "note": "Airlines",
+                "privilege": "6"
+            }
+        ]
+    },
+    {
+        "menu": "Styles",
+        "logo": "edit",
+        "note": "All styles maintenance screens",
+        "privilege": "6",
+        "sub": [{
+                "menu": "Cancellation style",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&type=CancellationStyle",
+                "new": "/eoffice-data/data/cancelstyle",
+                "detail": "/eoffice-data/data/cancelstyle/",
+                "logo": "window-close",
+                "note": "Cancellation style",
+                "privilege": "6"
+            },
+            {
+                "menu": "Feature style",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&type=FeatureStyle",
+                "new": "/eoffice-data/data/featurestyle",
+                "detail": "/eoffice-data/data/featurestyle/",
+                "logo": "table",
+                "note": "Feature style",
+                "privilege": "6"
+            },
+            {
+                "menu": "Line style",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&type=LineStyle",
+                "new": "/eoffice-data/data/linestyle",
+                "detail": "/eoffice-data/data/linestyle/",
+                "logo": "table",
+                "note": "Line style",
+                "privilege": "6"
+            },
+            {
+                "menu": "Markup/down style",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&type=MarkupDownStyle",
+                "new": "/eoffice-data/data/markupstyle",
+                "detail": "/eoffice-data/data/markupstyle/",
+                "logo": "funnel-dollar",
+                "note": "Markup/down style",
+                "privilege": "6"
+            },
+            {
+                "menu": "Pax style",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&type=PaxStyle",
+                "new": "/eoffice-data/data/paxstyle",
+                "detail": "/eoffice-data/data/paxstyle/",
+                "logo": "table",
+                "note": "Pax style",
+                "privilege": "6"
+            },
+            {
+                "menu": "Price style",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&type=PriceStyle",
+                "new": "/eoffice-data/data/pricestyle",
+                "detail": "/eoffice-data/data/pricestyle/",
+                "logo": "money-check",
+                "note": "Price style",
+                "privilege": "6"
+            },
+            {
+                "menu": "Release style",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&type=ReleaseStyle",
+                "new": "/eoffice-data/data/releasestyle",
+                "detail": "/eoffice-data/data/releasestyle/",
+                "logo": "table",
+                "note": "Release style",
+                "privilege": "6"
+            }
+        ]
+    },
+    {
+        "menu": "Others",
+        "logo": "edit",
+        "note": "All other maintenance screens",
+        "privilege": "6",
+        "sub": [{
+                "menu": "Brochure",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&type=Brochure",
+                "new": "/eoffice-data/data/brochure",
+                "detail": "/eoffice-data/data/brochure/",
+                "logo": "map",
+                "note": "Brochure",
+                "privilege": "6"
+            },
+            {
+                "menu": "Chain",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&type=Chain",
+                "new": "/eoffice-data/data/chain",
+                "detail": "/eoffice-data/data/chain/",
+                "logo": "link",
+                "note": "All Chains",
+                "privilege": "6"
+            },
+            {
+                "menu": "Agents",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&type=Agents",
+                "new": "/eoffice-data/data/agent",
+                "detail": "/eoffice-data/data/agent/",
+                "logo": "id-badge",
+                "note": "Agents",
+                "privilege": "6"
+            },
+            {
+                "menu": "Commission uplift",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&type=CommissionUplift",
+                "new": "/eoffice-data/data/commission",
+                "detail": "/eoffice-data/data/commission/",
+                "logo": "percent",
+                "note": "Commission uplift",
+                "privilege": "6"
+            },
+            {
+                "menu": "Currency",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&type=Currency",
+                "new": "/eoffice-data/data/currency",
+                "detail": "/eoffice-data/data/currency/",
+                "logo": "money-bill-wave-alt",
+                "note": "Currency",
+                "privilege": "6"
+            },
+            {
+                "menu": "Pick file",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&type=PickFile",
+                "new": "/eoffice-data/data/picklist",
+                "detail": "/eoffice-data/data/picklist/",
+                "logo": "file",
+                "note": "Pick file",
+                "privilege": "6"
+            },
+            {
+                "menu": "Programme",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&type=Programme",
+                "new": "/eoffice-data/data/program",
+                "detail": "/eoffice-data/data/program/",
+                "logo": "edit",
+                "note": "Programme",
+                "privilege": "6"
+            },
+            {
+                "menu": "Property",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&type=Property",
+                "new": "/eoffice-data/data/property",
+                "detail": "/eoffice-data/data/property/",
+                "logo": "building",
+                "note": "Property",
+                "privilege": "6"
+            },
+            {
+                "menu": "Property types",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&type=PropertyTypes",
+                "new": "/eoffice-data/codes/MP",
+                "detail": "/eoffice-data/codes/MP/",
+                "logo": "check-square",
+                "note": "Property types",
+                "privilege": "6"
+            },
+            {
+                "menu": "Supplier",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&type=Supplier",
+                "new": "/eoffice-data/data/supplier",
+                "detail": "/eoffice-data/data/supplier/",
+                "logo": "icon-hotel-supplier",
+                "note": "Supplier",
+                "privilege": "6"
+            },
+            {
+                "menu": "Price tables name",
+                "detail": "/eoffice-data/codes/TP/",
+                "logo": "table",
+                "note": "Price tables",
+                "privilege": "6"
+            }
+        ]
+    },
+    {
+        "menu": "Users",
+        "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&type=Users",
+        "new": "/eoffice-data/data/user",
+        "detail": "/eoffice-data/data/user/",
+        "logo": "users",
+        "note": "Users",
+        "privilege": "8"
+    },
+    {
+        "menu": "System",
+        "detail": "/eoffice-data/data/systemfile/A",
+        "logo": "wrench",
+        "note": "Update System Options",
+        "privilege": "8"
+    },
+    {
+        "menu": "Advanced System",
+        "detail": "/eoffice-data/data/hiddensystemfile/A",
+        "logo": "cogs",
+        "note": "Update Advanced System Options",
+        "privilege": "9"
+    },
+    {
+        "menu": "Reports",
+        "logo": "chart-bar",
+        "note": "All Reports",
+        "privilege": "8",
+        "sub": [
+
+            {
+                "menu": "Booking analysis",
+                "detail": "/eoffice-report/report/booking-analysis",
+                "logo": "chart-bar",
+                "note": "",
+                "privilege": "8"
+            },
+            {
+                "menu": "Sales",
+                "detail": "/eoffice-report/report/sales-report",
+                "logo": "chart-bar",
+                "note": "",
+                "privilege": "0"
+            },
+            {
+                "menu": "Margin",
+                "detail": "/eoffice-report/report/margin",
+                "logo": "chart-bar",
+                "note": "",
+                "privilege": "0"
+            },
+            {
+                "menu": "Accommodation Capacity",
+                "detail": "/eoffice-report/report/accommodation-capacity",
+                "logo": "chart-bar",
+                "note": "",
+                "privilege": "0"
+            },
+            {
+                "menu": "Component Capacity",
+                "detail": "/eoffice-report/report/component-capacity",
+                "logo": "chart-bar",
+                "note": "",
+                "privilege": "0"
+            },
+            {
+                "menu": "Transport Capacity",
+                "detail": "/eoffice-report/report/transport-capacity",
+                "logo": "chart-bar",
+                "note": "",
+                "privilege": "0"
+            },
+            {
+                "menu": "Outstanding balances",
+                "detail": "/eoffice-report/report/outstanding-payment",
+                "logo": "chart-bar",
+                "note": "",
+                "privilege": "0"
+            },
+            {
+                "menu": "Period book",
+                "detail": "/eoffice-report/report/period-book",
+                "logo": "chart-bar",
+                "note": "",
+                "privilege": "0"
+            },
+            {
+                "menu": "Period book summary",
+                "detail": "/eoffice-report/report/period-book-summary",
+                "logo": "chart-bar",
+                "note": "",
+                "privilege": "0"
+            }, {
+                "menu": "ATOL/ABTA Licensable turnover",
+                "detail": "/eoffice-report/report/license-turnover",
+                "logo": "chart-bar",
+                "note": "",
+                "privilege": "0"
+            }, {
+                "menu": "Component usage",
+                "detail": "/eoffice-report/report/component-usage",
+                "logo": "chart-bar",
+                "note": "",
+                "privilege": "0"
+            }, {
+                "menu": "Aged debt",
+                "detail": "/eoffice-report/report/aged-debt",
+                "logo": "chart-bar",
+                "note": "",
+                "privilege": "0"
+            }
+        ]
+    },
+    {
+        "menu": "Bookings",
+        "logo": "check-square",
+        "note": "Bookings",
+        "privilege": "0",
+        "sub": [{
+                "menu": "New",
+                "detail": "/eoffice-booking/booking/quote",
+                "logo": "plus-square",
+                "note": "New Booking",
+                "privilege": "0"
+            },
+            {
+                "menu": "Search",
+                "detail": "/eoffice-tools/bookingsearch",
+                "logo": "search",
+                "note": "Booking Search",
+                "privilege": "0"
+            },
+            {
+                "menu": "Tasks",
+                "detail": "/eoffice-booking/booking/show/task",
+                "logo": "check-square",
+                "note": "Tasks list",
+                "privilege": "0"
+            },
+            {
+                "menu": "My Bookings",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&rule=mybookings&type=Booking",
+                "new": "/eoffice-booking/booking/quote",
+                "detail": "/eoffice-booking/booking/show/",
+                "logo": "check-square",
+                "note": "My Recent Bookings",
+                "privilege": "0"
+            },
+            {
+                "menu": "Today",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&rule=today&type=Booking&listPrvlg=7",
+                "new": "/eoffice-booking/booking/quote",
+                "detail": "/eoffice-booking/booking/show/",
+                "logo": "check-square",
+                "note": "All Today's Bookings",
+                "privilege": "0"
+            },
+            {
+                "menu": "Yesterday",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&rule=yesterday&type=Booking&listPrvlg=7",
+                "new": "/eoffice-booking/booking/quote",
+                "detail": "/eoffice-booking/booking/show/",
+                "logo": "check-square",
+                "note": "All Yesterday's Bookings",
+                "privilege": "0"
+            },
+            {
+                "menu": "Quotes",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&rule=quote&type=Booking&listPrvlg=7",
+                "new": "/eoffice-booking/booking/quote",
+                "detail": "/eoffice-booking/booking/show/",
+                "logo": "check-square",
+                "note": "All Quotes",
+                "privilege": "0"
+            },
+            {
+                "menu": "Enquiries",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&rule=enquiry&type=Booking&listPrvlg=7",
+                "new": "/eoffice-booking/booking/quote",
+                "detail": "/eoffice-booking/booking/show/",
+                "logo": "check-square",
+                "note": "All Enquiries",
+                "privilege": "0"
+            },
+            {
+                "menu": "Options",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&rule=options&type=Booking&listPrvlg=7",
+                "new": "/eoffice-booking/booking/quote",
+                "detail": "/eoffice-booking/booking/show/",
+                "logo": "check-square",
+                "note": "All Options",
+                "privilege": "0"
+            },
+            {
+                "menu": "Expired Options",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&rule=expires&type=Booking&listPrvlg=7",
+                "detail": "/eoffice-booking/booking/show/",
+                "logo": "exclamation-triangle",
+                "note": "All Expired Options",
+                "privilege": "0"
+            },
+            {
+                "menu": "Requests",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&rule=requests&type=Booking&listPrvlg=7",
+                "new": "/eoffice-booking/booking/quote",
+                "detail": "/eoffice-booking/booking/show/",
+                "logo": "check-square",
+                "note": "All Requests",
+                "privilege": "0"
+            },
+            {
+                "menu": "Sale",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&rule=sale&type=Booking&listPrvlg=7",
+                "new": "/eoffice-booking/booking/quote",
+                "detail": "/eoffice-booking/booking/show/",
+                "logo": "check-square",
+                "note": "All Sold Bookings",
+                "privilege": "0"
+            },
+            {
+                "menu": "All",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&rule=allbookings&type=Booking&listPrvlg=7",
+                "new": "/eoffice-booking/booking/quote",
+                "detail": "/eoffice-booking/booking/show/",
+                "logo": "check-square",
+                "note": "All Bookings",
+                "privilege": "0"
+            },
+            {
+                "menu": "Invoices To-do",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&rule=tobeinvoiced&type=Booking&listPrvlg=7",
+                "new": "/eoffice-booking/booking/quote",
+                "detail": "/eoffice-booking/booking/show/",
+                "logo": "check-square",
+                "note": "To be Invoiced",
+                "privilege": "0"
+            },
+            {
+                "menu": "Cancellations",
+                "list": "/cgi-bin/dwsrun?e2/EMGETJOBS&rule=cancellations&type=Booking&listPrvlg=7",
+                "new": "/eoffice-booking/booking/quote",
+                "detail": "/eoffice-booking/booking/show/",
+                "logo": "check-square",
+                "note": "Cancelled Bookings",
+                "privilege": "0"
+            },
+            {
+                "menu": "Download API",
+                "detail": "/eoffice-tools/passengerinfo",
+                "logo": "check-square",
+                "note": "Advance Passenger Info",
+                "privilege": "0"
+            },
+            {
+                "menu": "Missing API",
+                "detail": "/eoffice-tools/missingapi",
+                "logo": "check-square",
+                "note": "Search Missing API Bookings",
+                "privilege": "0"
+            }
+        ]
+    },
+    {
+        "menu": "Manifest",
+        "logo": "file-alt",
+        "note": "All Manifests",
+        "privilege": "6",
+        "sub": [{
+                "menu": "Manifests",
+                "detail": "/manifests.html",
+                "logo": "list-alt",
+                "note": "Online manifest",
+                "privilege": "6"
+            },
+            {
+                "menu": "Manifests-Transfers",
+                "detail": "/transfers.html",
+                "logo": "list-alt",
+                "note": "Manifest for transfers",
+                "privilege": "6"
+            }
+        ]
+    }
+]

@@ -1,0 +1,11 @@
+[
+   {
+      "logo" : "fairlight_logo.png",
+      "menu" : "menu_fairlight.json",
+      "switchProgram" : "true",
+      "showNotification" : "true",
+      "themeCss" : "fairlight-theme.css",
+      "message" : "",
+      "taskLimit" : "10"
+   }
+]
