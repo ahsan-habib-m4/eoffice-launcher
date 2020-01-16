@@ -43,7 +43,7 @@ import '@vaadin/vaadin-split-layout/vaadin-split-layout.js';
 import '@polymer/iron-list/iron-list.js';
 import '@polymer/paper-card/paper-card.js';
 
-class MyView2 extends connect(store)(PageViewElement) {
+class ListView extends connect(store)(PageViewElement) {
     static get properties() {
         return {
             // This is the data from the store.
@@ -201,4 +201,4 @@ class MyView2 extends connect(store)(PageViewElement) {
 
 }
 
-window.customElements.define('my-view2', MyView2);
+window.customElements.define('list-view', ListView);

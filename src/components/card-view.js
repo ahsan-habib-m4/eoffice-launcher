@@ -36,7 +36,7 @@ import '@polymer/paper-card/paper-card.js';
 // These are the shared styles needed by this element.
 import { SharedStyles } from './shared-styles.js';
 
-class Dashboard extends connect(store)(PageViewElement) {
+class Cardpage extends connect(store)(PageViewElement) {
 
         static get properties() {
             return {
@@ -120,14 +120,14 @@ class Dashboard extends connect(store)(PageViewElement) {
               <paper-card class="sec-card">
                 ${item.sub
                     ? html`
-                      <a ?selected="${this._menu === '${item.menu}'}" href="/dashboard" sub-menu="${item.menu}" class="menu-link" >
+                      <a ?selected="${this._menu === '${item.menu}'}" href="/card-view" sub-menu="${item.menu}" class="menu-link" >
                       <fontawesome-icon prefix="fas" name="${item.logo}" fixed-width></fontawesome-icon>
                       <p>${item.menu}</p>
                       <p>${item.note}</p>
                       </a>
                     `
                     : html`
-                      <a ?selected="${this._menu === '${item.menu}'}" href="/view2" data-link="${item.list}" class="menu-link" menu-name="${item.menu}">
+                      <a ?selected="${this._menu === '${item.menu}'}" href="/listview" data-link="${item.list}" class="menu-link" menu-name="${item.menu}">
                         <fontawesome-icon prefix="fas" name="${item.logo}" fixed-width></fontawesome-icon>
                         <p>${item.menu}</p>
                         <p>${item.note}</p>
@@ -145,14 +145,14 @@ class Dashboard extends connect(store)(PageViewElement) {
               <paper-card class="sec-card">
                 ${item.sub
                     ? html`
-                      <a ?selected="${this._menu === '${item.menu}'}" href="/dashboard" sub-menu="${item.menu}" class="menu-link" >
+                      <a ?selected="${this._menu === '${item.menu}'}" href="/card-view" sub-menu="${item.menu}" class="menu-link" >
                       <fontawesome-icon prefix="fas" name="${item.logo}"></fontawesome-icon>
                       <p>${item.menu}</p>
                       <p>${item.note}</p>
                       </a>
                     `
                     : html`
-                      <a ?selected="${this._menu === '${item.menu}'}" href="/view2" data-link="${item.list}"class="menu-link" menu-name="${item.menu}">
+                      <a ?selected="${this._menu === '${item.menu}'}" href="/listview" data-link="${item.list}"class="menu-link" menu-name="${item.menu}">
                         <fontawesome-icon prefix="fas" name="${item.logo}"></fontawesome-icon>
                         <p>${item.menu}</p>
                         <p>${item.note}</p>
@@ -283,4 +283,4 @@ class Dashboard extends connect(store)(PageViewElement) {
   }
 }
 
-window.customElements.define('dash-board', Dashboard);
+window.customElements.define('card-view', Cardpage);

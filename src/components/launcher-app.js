@@ -78,7 +78,7 @@ import '@polymer/paper-dialog/paper-dialog.js';
 import { menuIcon } from './my-icons.js';
 import './snack-bar.js';
 
-class MyApp extends connect(store)(LitElement) {
+class LauncherApp extends connect(store)(LitElement) {
         static get properties() {
             return {
                 appTitle: { type: String },
@@ -342,23 +342,23 @@ class MyApp extends connect(store)(LitElement) {
         <app-drawer id="drawer" slot="drawer" swipe-open="[[narrow]]">
           <div style="height: 100%; overflow: auto;">
             <app-toolbar id="logo">
-            <a href="/dashboard" @click="${this._removeSubMenu}"  style="width: auto; text-align: center; padding-top: 10px;"><img src="images/metafour.png"  /></a>
+            <a href="/card-view" @click="${this._removeSubMenu}"  style="width: auto; text-align: center; padding-top: 10px;"><img src="images/metafour.png"  /></a>
             </app-toolbar>
 
             <nav class="drawer-list">
              
-                <a ?selected="${this._activeMenu === 'Home'}" href="/dashboard" @click="${this._removeSubMenu}" ><fontawesome-icon prefix="fas" name="home"></fontawesome-icon> Home<paper-ripple>Home</paper-ripple></a>
+                <a ?selected="${this._activeMenu === 'Home'}" href="/card-view" @click="${this._removeSubMenu}" ><fontawesome-icon prefix="fas" name="home"></fontawesome-icon> Home<paper-ripple>Home</paper-ripple></a>
                 ${repeat(this.menuJson, item =>  html`
                   ${item.sub
                       ? html`
-                        <a ?selected="${this._activeMenu === item.menu}" href="/dashboard" sub-menu="${item.menu}" class="menu-link" ><fontawesome-icon prefix="fas" name="${item.logo}"></fontawesome-icon> ${item.menu}<paper-ripple>Click here</paper-ripple></a>
+                        <a ?selected="${this._activeMenu === item.menu}" href="/card-view" sub-menu="${item.menu}" class="menu-link" ><fontawesome-icon prefix="fas" name="${item.logo}"></fontawesome-icon> ${item.menu}<paper-ripple>Click here</paper-ripple></a>
                       `
                       : html`
-                        <a ?selected="${this._activeMenu === item.menu}" href="/view2" data-link="${item.list}" class="menu-link" menu-name="${item.menu}"><fontawesome-icon prefix="fas" name="${item.logo}"></fontawesome-icon> ${item.menu}<paper-ripple>Click here</paper-ripple></a>
+                        <a ?selected="${this._activeMenu === item.menu}" href="/listview" data-link="${item.list}" class="menu-link" menu-name="${item.menu}"><fontawesome-icon prefix="fas" name="${item.logo}"></fontawesome-icon> ${item.menu}<paper-ripple>Click here</paper-ripple></a>
                       `
                   }
                 `)}
-                <a ?selected="${this._page === 'view1'}" class="menu-link" href="/view1"><fontawesome-icon prefix="fas" name="chart-pie"></fontawesome-icon> Chart<paper-ripple>Click here</paper-ripple></a>
+                <a ?selected="${this._page === 'chart'}" class="menu-link" href="/chart"><fontawesome-icon prefix="fas" name="chart-pie"></fontawesome-icon> Chart<paper-ripple>Click here</paper-ripple></a>
                 <a ?selected="${this._page === 'form'}" class="menu-link" href="/form"><fontawesome-icon prefix="fas" name="search"></fontawesome-icon> Search<paper-ripple>Click here</paper-ripple></a>
             <!--
                 <vaadin-accordion opened="null">
@@ -401,9 +401,9 @@ class MyApp extends connect(store)(LitElement) {
 
           <!-- Main content -->
           <main role="main" class="main-content">
-            <dash-board class="page" ?active="${this._page === 'dashboard'}"></dash-board>
-            <my-view1 class="page" ?active="${this._page === 'view1'}"></my-view1>
-            <my-view2 class="page" ?active="${this._page === 'view2'}"></my-view2>
+            <card-view class="page" ?active="${this._page === 'card-view'}"></card-view>
+            <chart-view class="page" ?active="${this._page === 'chart'}"></chart-view>
+            <list-view class="page" ?active="${this._page === 'listview'}"></list-view>
             <my-view3 class="page" ?active="${this._page === 'view3'}"></my-view3>
             <form-view class="page" ?active="${this._page === 'form'}"></form-view>
             <my-view404 class="page" ?active="${this._page === 'view404'}"></my-view404>
@@ -588,4 +588,4 @@ class MyApp extends connect(store)(LitElement) {
     }
 }
 
-window.customElements.define('my-app', MyApp);
+window.customElements.define('launcher-app', LauncherApp);
